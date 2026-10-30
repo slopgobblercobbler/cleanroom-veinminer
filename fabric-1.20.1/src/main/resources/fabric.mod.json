@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanroom_veinminer",
+  "version": "${version}",
+  "name": "VeinMiner CleanRoom",
+  "description": "Recursive contiguous ore and mineral cluster excavation engine.",
+  "authors": [
+    "CleanRoom Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/cleanroom/minecraft_mod_ports"
+  },
+  "license": "MIT",
+  "icon": "assets/cleanroom_veinminer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cleanroom.veinminer.fabric.VeinMinerFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20 <=1.21.3",
+    "java": ">=17"
+  }
+}
